@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          'primary': '#1F1F1F',
+          'secondary': '#545454',
+          'lighter': '#929292',
+          'footer': '#D1D1D1',
+          'email': '#8C8C8C'
+        },
+        fontFamily: {
+          sans: ['Inter', 'sans-serif']
+        },
+        fontWeight: {
+          'regular': '400',
+          'medium': '500',
+          'semibold': '600'
+        }
+        
+      },
+    }
+  }
+</script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Interior Design</title>
+</head>
+
+<body>
+  <!-- start Home -->
+
+ <!-- start nav-->
+<nav class="mx-2 sm:mx-5 md:mx-10 lg:mx-20 mt-2 sm:mt-4 lg:mt-6 grid grid-cols-3 items-center px-1 sm:px-2 md:px-5">
+  <!-- Logo -->
+  <div class="grid place-items-start">
+    <img src="./img/Logo (1).png" alt="logo" class="h-6 sm:h-8 md:h-auto" loading="lazy">
+  </div>
+  
+  <!-- Nav items -->
+  <div class="grid place-items-center">
+    <ul class="grid grid-cols-4 gap-3 sm:gap-4 md:gap-6 lg:gap-9 text-center text-secondary font-semibold text-[10px] sm:text-sm md:text-base lg:text-l cursor-pointer">
+      <li class="text-primary">Home</li>
+      <li class="hover:text-primary">Service</li>
+      <li class="hover:text-primary">Contact</li>
+      <li class="hover:text-primary">Support</li>
+    </ul>
+  </div>
+  
+  <!-- Sign Up -->
+  <div class="grid place-items-end">
+    <button class="bg-primary text-white py-1 sm:py-2 md:py-3 px-2 sm:px-6 md:px-8 lg:px-12 rounded-[4px] hover:bg-black font-semibold text-[10px] sm:text-sm">Sign Up</button>
+  </div>
+</nav>
+<!-- End nav-->
+
+<!-- start home content-->
+<section class="mx-4 sm:mx-8 md:mx-16 lg:mx-24 mt-4 sm:mt-6 md:mt-8 lg:mt-9">
+
+  <!-- start first container-->
+  <div class="grid grid-cols-1 lg:grid-cols-[2fr,1fr] gap-6 lg:gap-0">
+
+    <!-- start left side-->
+    <div class="grid">
+      <h1 class="text-primary text-5xl sm:text-7xl md:text-9xl lg:text-[110px] font-medium mt-10">Interior Design</h1>
+      <p class="font-medium text-secondary text-base sm:text-lg md:text-xl lg:text-xl lg:leading-[175%] md:leading-[175%] mt-4">
+        Step into a world where the art of Interior Design is meticulously<br class="hidden md:block"> 
+        crafted to bring together timeless elegance and cutting-edge<br class="hidden md:block">
+        modern Innovation, Allowing you to transform your living spaces<br class="hidden md:block"> 
+        into the epitome of luxury and sophistication
+      </p>
+    </div>
+    <!-- End left side-->
+
+    <!-- start Right side-->
+    <div class="grid place-items-center">
+      <img src="./img/754fa69fd3a535ebb6b9aa1e3667f84f5670fe3d.jpg" alt="design 1" class="w-full h-48 sm:h-60 md:h-72 lg:h-80 object-cover rounded-[4px]" loading="lazy">
+    </div>
+    <!-- End Right side-->
+    
+  </div>
+  <!-- End first container-->
+
+  <!-- start second container-->
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0 mt-8 lg:mt-0">
+
+    <!-- start Left side-->
+    <div class="grid grid-rows-2 items-center gap-6 lg:gap-0">
+      <div>
+        <button class="bg-primary py-3 sm:py-3.5 md:py-4 lg:py-5 px-10 sm:px-12 md:px-14 lg:px-16 text-white font-semibold rounded-[4px] hover:bg-black">Start Project</button>
+      </div>
+      <div class="grid grid-cols-3 text-secondary font-regular text-base sm:text-lg lg:text-lg">
+        <div class="space-y-3">
+          <span class="text-3xl sm:text-4xl md:text-5xl lg:text-5xl">400+</span>
+          <p>Project Complete</p>
+        </div>
+        <div class="space-y-3">
+          <span class="text-3xl sm:text-4xl md:text-5xl lg:text-5xl">600+</span>
+          <p>Satisfied Clients</p>
+        </div>
+        <div class="space-y-3">
+          <span class="text-3xl sm:text-4xl md:text-5xl lg:text-5xl">100+</span>
+          <p>Unique Styles</p>
+        </div>
+      </div>
+    </div>
+    <!-- End Left side-->
+
+    <!-- start Right side-->
+    <div class="relative">
+      <!-- border -->
+      <div class="w-32 sm:w-36 md:w-40 lg:w-44 h-28 sm:h-32 md:h-36 lg:h-40 border-2 border-primary rounded-[4px] absolute z-0"></div>
+      <!-- image -->
+      <div class="ml-4 sm:ml-5 md:ml-6 lg:ml-6 mt-5 sm:mt-6 md:mt-7 lg:mt-7 relative">
+        <img src="./img/cbc82576f8bfdcac31b86e0b93dd464c3569ada4.jpg" alt="design 2" class="w-11/12 h-48 sm:h-60 md:h-72 lg:h-80 object-cover z-10 rounded-[4px]" loading="lazy">
+      </div>
+      <!-- Icon-->
+      <div class="absolute right-0 bottom-0 bg-primary text-white font-semibold py-6 sm:py-7 md:py-8 lg:py-8 px-8 sm:px-10 md:px-12 lg:px-12 rounded-[2px] hover:bg-black cursor-pointer">
+        <svg width="14" height="40" viewBox="0 0 14 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M7 0L7 36" stroke="white" stroke-width="2"/>
+          <path d="M1 30L7 38L13 30" stroke="white" stroke-width="2"/>
+        </svg>
+      </div>
+    </div>
+    <!-- End Right side-->
+  </div>
+  <!-- End sconed container-->
+</section>
+<!-- end home content-->
+
+<!-- End Home -->
+
+<!-- Start Service -->
+<section class="mx-4 sm:mx-8 md:mx-16 lg:mx-24 mt-16 sm:mt-24 md:mt-32 lg:mt-40">
+  <!--Title-->
+  <div class="flex items-center gap-2 sm:gap-3 md:gap-4">
+    <div class="w-16 sm:w-20 md:w-24 h-[2px] sm:h-[2.2px] md:h-[2.4px] bg-primary rounded-[3px]"></div>
+    <h1 class="text-primary font-semibold text-2xl sm:text-3xl md:text-4xl lg:text-5xl">Our Services</h1>
+  </div>
+  
+  <!--services-->
+  <div class="mt-6 sm:mt-8 md:mt-10 lg:mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 md:gap-6">
+
+    <!--Card 1-->
+    <div class="grid grid-cols-[auto_1fr] gap-3 sm:gap-4 md:gap-5">
+      <div class="w-12 sm:w-14 md:w-16 h-12 sm:h-14 md:h-16">
+        <img src="./img/947cdac8db1be5185c561c6293a9b4cf32a91cf0.png" alt="" class="w-full h-auto" loading="lazy">
+      </div>
+      <div>
+        <h3 class="text-primary font-semibold text-lg sm:text-xl md:text-2xl mb-2 sm:mb-4 md:mb-6">Lighting Design</h3>
+        <p class="text-secondary font-medium text-sm sm:text-base md:text-lg leading-[165%]">Achieve the perfect balance of ambient, task, and accent lighting for a functional atmosphere</p>
+      </div>
+    </div>
+
+    <!--Card 2-->
+    <div class="grid grid-cols-[auto_1fr] gap-3 sm:gap-4 md:gap-5">
+      <div class="w-12 sm:w-14 md:w-16 h-12 sm:h-14 md:h-16">
+        <img src="./img/64c211d56c2a2b3156072d1db45a8640be8bdf84.png" alt="" class="w-full h-auto" loading="lazy">
+      </div>
+      <div>
+        <h3 class="text-primary font-semibold text-lg sm:text-xl md:text-2xl mb-2 sm:mb-4 md:mb-6">Interior Design</h3>
+        <p class="text-secondary font-medium text-sm sm:text-base md:text-lg leading-[165%]">From concept to completion, we oversee every detail to bring your vision to life efficiently</p>
+      </div>
+    </div>
+
+    <!--Card 3-->
+    <div class="grid grid-cols-[auto_1fr] gap-3 sm:gap-4 md:gap-5 md:col-span-2 lg:col-span-1 md:max-w-md md:mx-auto lg:max-w-none">
+      <div class="w-12 sm:w-14 md:w-16 h-12 sm:h-14 md:h-16">
+        <img src="./img/ef044b9400dfef741c63241ef395a843c9686cc7.png" alt="" class="w-full h-auto" loading="lazy">
+      </div>
+      <div>
+        <h3 class="text-primary font-semibold text-lg sm:text-xl md:text-2xl mb-2 sm:mb-4 md:mb-6">Outdoor Design</h3>
+        <p class="text-secondary font-medium text-sm sm:text-base md:text-lg leading-[165%]">Celebrate the changing seasons with our seasonal outdoor decor ,<br>services</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- End Service -->
+
+<!-- Start design 1 -->
+<section class="mx-4 sm:mx-8 md:mx-16 lg:mx-24 mt-16 sm:mt-24 md:mt-32 lg:mt-48">
+  <!-- whole div-->
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14">
+    <!-- img div-->
+    <div class="h-64 sm:h-80 md:h-96 lg:h-auto">
+      <img src="./img/70204b16d915e0eb9b651421a75c9164824b17f1.png" alt="design" loading="lazy" class="w-full h-full object-cover rounded-[4px]">
+    </div>
+
+    <!--content div-->
+    <div class="grid gap-6 sm:gap-8 md:gap-10 lg:gap-14 px-0 lg:px-7">
+      <!--head line-->
+      <h1 class="font-semibold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-primary leading-[120%] lg:leading-[110%]">
+        Designing Your Dream<br class="hidden sm:block"> With Brilliance
+      </h1>
+
+      <!--paragraph-->
+      <p class="font-medium text-secondary text-sm sm:text-base md:text-lg leading-[165%]">
+        Elevate your spaces with bespoke interior designs that reflect<br class="hidden md:block"> 
+        your unique style and aspirations, crafted with precision and<br class="hidden md:block">
+        brilliance for an unforgettable living experience
+      </p>
+      
+      <!--items-->
+      <div class="grid gap-4 sm:gap-5 md:gap-6 lg:gap-7">
+        <div class="flex justify-between items-center border-b border-[#DADADA] pb-3 sm:pb-4">
+          <h3 class="font-semibold text-sm sm:text-base text-primary leading-[165%]">Living Room Interior Design</h3>
+          <i class="fa-solid fa-plus text-primary text-lg sm:text-xl lg:text-2xl"></i>
+        </div>
+        <div class="flex justify-between items-center border-b border-[#DADADA] pb-3 sm:pb-4">
+          <h3 class="font-semibold text-sm sm:text-base text-primary leading-[165%]">Commercial Office Room Interior Design</h3>
+          <i class="fa-solid fa-plus text-primary text-lg sm:text-xl lg:text-2xl"></i>
+        </div>
+      </div>
+
+      <!--button-->
+      <div>
+        <button class="bg-primary py-2.5 sm:py-3 px-8 sm:px-10 md:px-12 lg:px-14 text-white font-semibold rounded-[4px] text-sm sm:text-base hover:bg-black">
+          Learn More
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End design 1-->
+
+<!-- Start design 2 -->
+<section class="mx-4 sm:mx-8 md:mx-16 lg:mx-24 mt-16 sm:mt-24 md:mt-32 lg:mt-48">
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14">
+    <!-- Left Content -->
+    <div class="grid gap-8 lg:gap-10">
+      <!-- Title -->
+      <h1 class="font-semibold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-primary leading-[120%] lg:leading-[110%]">
+        Designing Your Dream in<br>
+        Three Simple Steps
+      </h1>
+
+      <!-- Steps -->
+      <div class="grid gap-0">
+        <!-- Step 1 -->
+        <div class="grid grid-cols-[auto_1fr] gap-4 sm:gap-5">
+          <!-- Icon Column with Line -->
+          <div class="flex flex-col items-center">
+            <!-- Icon -->
+            <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
+              <svg class="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7" fill="none" stroke="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+              </svg>
+            </div>
+            <!-- Line -->
+            <div class="w-[0.5px] flex-1 bg-[#9B9B9B] mt-3 mb-3"></div>
+          </div>
+          <!-- Content -->
+          <div class="pb-6 sm:pb-8 lg:pb-10">
+            <h3 class="text-primary font-semibold text-lg sm:text-xl lg:text-2xl mb-2 sm:mb-3">Start Project</h3>
+            <p class="text-secondary font-medium text-sm sm:text-base lg:text-lg leading-[165%]">
+              Embark on your design adventure by initiating<br class="hidden lg:block">
+              your project. Share your vision and set the stage<br class="hidden lg:block">
+              for a bespoke design experience
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="grid grid-cols-[auto_1fr] gap-4 sm:gap-5">
+          <!-- Icon Column with Line -->
+          <div class="flex flex-col items-center">
+            <!-- Icon -->
+            <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
+              <svg class="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7" fill="none" stroke="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+              </svg>
+            </div>
+            <!-- Line -->
+            <div class="w-[0.5px] flex-1 bg-[#9B9B9B] mt-3 mb-3"></div>
+          </div>
+          <!-- Content -->
+          <div class="pb-6 sm:pb-8 lg:pb-10">
+            <h3 class="text-primary font-semibold text-lg sm:text-xl lg:text-2xl mb-2 sm:mb-3">Craft</h3>
+            <p class="text-secondary font-medium text-sm sm:text-base lg:text-lg leading-[165%]">
+              Collaborate closely to achieve design excellence<br class="hidden lg:block">
+              refining your vision and crafting brilliance into<br class="hidden lg:block">
+              every aspect of your space
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="grid grid-cols-[auto_1fr] gap-4 sm:gap-5">
+          <!-- Icon Column -->
+          <div class="flex flex-col items-center">
+            <!-- Icon -->
+            <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
+              <svg class="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7" fill="none" stroke="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+            </div>
+          </div>
+          <!-- Content -->
+          <div>
+            <h3 class="text-primary font-semibold text-lg sm:text-xl lg:text-2xl mb-2 sm:mb-3">Execute</h3>
+            <p class="text-secondary font-medium text-sm sm:text-base lg:text-lg leading-[165%]">
+              Witness your vision becoming a reality as we<br class="hidden lg:block">
+              execute the design plan with precision. Celebrate<br class="hidden lg:block">
+              the joy of your newly transformed space
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Image -->
+    <div class="h-64 sm:h-80 md:h-96 lg:h-full min-h-[400px] lg:min-h-[600px]">
+      <img src="./img/79babf3017497c6191cb773fb741bd9893bb6527.jpg" alt="Modern living room design" loading="lazy" class="w-full h-full object-cover rounded-[4px]">
+    </div>
+  </div>
+</section>
+<!-- End design 2 -->
+    
+<!-- Start Testimonials -->
+<section class="mx-4 sm:mx-8 md:mx-16 lg:mx-24 mt-16 sm:mt-24 md:mt-32 lg:mt-48">
+  <div class="relative">
+    <!-- Main Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
+      <!-- Left Image -->
+      <div class="lg:col-span-6 order-2 lg:order-1 ">
+        <img src="./img/a5c211f7e99af71b78e5335eda7930c6a7530ec8.jpg" 
+             alt="Interior design testimonial" 
+             class="w-full h-64 sm:h-80 md:h-96 lg:h-[600px] object-cover rounded-[4px] " 
+             loading="lazy">
+      </div>
+      
+      <!-- Right Content -->
+      <div class="lg:col-span-6 order-1 lg:order-2 flex flex-col justify-between">
+        <!-- Title -->
+        <div>
+          <h2 class="font-semibold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-primary mb-8 lg:mb-12">
+            What Our Customers<br class="hidden sm:block"> Say About Us
+          </h2>
+        </div>
+        
+
+      </div>
+    </div>
+    
+    <!-- Testimonial Cards - Overlapping -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-1 mt-8 lg:-mt-12 lg:absolute lg:bottom-5 lg:left-[25%] lg:right-0 lg:w-3/4 z-10">
+      <!-- Card 1 -->
+      <div class="bg-primary text-white p-6 sm:p-8 lg:p-10  card">
+        <!-- Quote Icon -->
+        <div class="mb-4">
+            <a class="text-6xl">"</a>
+        </div>
+        
+        <!-- Testimonial Text -->
+        <p class="font-medium text-sm sm:text-base mb-6 leading-[165%]">
+          Working with your design team was an absolute pleasure. The attention to detail and creativity exceeded my expectations. Thank you for making my home beautiful!
+        </p>
+        
+        <!-- Customer Info -->
+        <div class="flex items-center gap-3 py-16">
+          <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-lighter overflow-hidden">
+            <img src="./img/5dc2d53edc45b2d7e55f21d20ce8eeac1038a6ca.png" 
+                 alt="Sophie Carter" 
+                 class="w-full h-full object-cover"
+                 loading="lazy">
+          </div>
+          <div>
+            <h4 class="font-medium text-sm sm:text-base">Sophie Carter</h4>
+            <p class="text-xs sm:text-sm opacity-70 text-lighter font-regular">New York, USA</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Card 2 -->
+      <div class="bg-primary text-white p-6 sm:p-8 lg:p-10  card">
+        <!-- Quote Icon -->
+        <div class="mb-4">
+        <div class="mb-4">
+            <a class="text-6xl">"</a>
+        </div>
+        </div>
+        
+        <!-- Testimonial Text -->
+        <p class="font-medium text-sm sm:text-base mb-6 leading-[165%]">
+          Exceptional service! From the initial consultation to the final reveal, your team demonstrated professionalism and a keen eye for design. Highly recommend!
+        </p>
+        
+        <!-- Customer Info -->
+        <div class="flex items-center gap-3 py-16">
+          <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-lighter overflow-hidden">
+            <img src="./img/b3688034cad5b30595e28807396753381fc933ae.jpg" 
+                 alt="James Bennett" 
+                 class="w-full h-full object-cover"
+                 loading="lazy">
+          </div>
+          <div>
+            <h4 class="font-medium text-sm sm:text-base">James Bennett</h4>
+            <p class="text-xs sm:text-sm opacity-70 text-lighter font-regular">Toronto, Canada</p>
+          </div>
+        </div>
+      </div>
+    </div>
+            <div class="flex gap-4 mb-8 my-5 lg:mb-0">
+          <button class="bg-[#F1F1F1] w-16 sm:w-20 h-10 rounded-md flex items-center justify-center cursor-pointer hover:bg-gray-300 transition-colors">
+            <i class="fa-solid fa-arrow-left-long"></i>
+          </button>
+          <button class="bg-[#F1F1F1] w-16 sm:w-20 h-10 rounded-md flex items-center justify-center cursor-pointer hover:bg-gray-300 transition-colors">
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </button>
+        </div>
+  </div>
+</section>
+<!-- End Testimonials -->
+
+<!-- Start Newsletter -->
+<section class="relative">
+  <div class="mx-4 sm:mx-8 md:mx-16 lg:mx-24 text-center pt-16 sm:pt-24 md:pt-32 lg:pt-48 pb-16">
+    <!-- Title -->
+    <h2 class="font-semibold text-primary text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-primary lg:leading-[130%] leading-[120%] mb-6 sm:mb-8 lg:mb-10">
+      Subscribe to Our Newsletter<br>
+      for Design Insights
+    </h2>
+    
+    <!-- Description -->
+    <p class="font-medium text-secondary text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-12 sm:mb-16">
+      Be the first to discover trends, inspirations, and special offers as<br class="hidden sm:block">
+      we bring the world of design directly to your inbox
+    </p>
+  </div>
+  
+  <!-- Email Form - Positioned to overlap -->
+  <div class="relative z-10 mx-4 sm:mx-8 md:mx-16 lg:mx-24">
+    <form class="flex flex-col sm:flex-row gap-0 max-w-xl mx-auto shadow-xl">
+      <div class="relative flex-1">
+        <i class="fa-regular fa-envelope absolute left-4 sm:left-6 top-1/2 transform -translate-y-1/2 text-[#8C8C8C]"></i>
+        <input 
+          type="email" 
+          placeholder="Enter your email address"
+          class="w-full pl-12 sm:pl-14 pr-4 sm:pr-6 py-4 sm:py-5 bg-white border border-[#E0E0E0] rounded-l-[4px] text-secondary placeholder:text-[#8C8C8C] focus:outline-none focus:border-primary"
+          required
+        >
+      </div>
+      <button 
+        type="submit"
+        class="bg-primary text-white font-semibold px-6 sm:px-8 md:px-10 py-4 sm:py-5 rounded-r-[4px] hover:bg-black transition-colors"
+      >
+        Subscribe
+      </button>
+    </form>
+  </div>
+  
+  <!-- Footer - Starting at the middle of the form -->
+  <footer class="bg-primary text-white -mt-8 pt-20">
+    <div class="mx-4 sm:mx-8 md:mx-16 lg:mx-24 pb-12 sm:pb-16 md:pb-20">
+      <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+        
+        <!-- Company Info -->
+        <div>
+          <!-- Logo -->
+          <div class="mb-6">
+            <img src="./img/Logo 2.png" alt="">
+          </div>
+          <p class="text-sm sm:text-base opacity-80 leading-[165%] mb-6 text-footer">
+            VivaDecor your premier<br>
+            destination for luxury and<br>
+            modern interior design
+          </p>
+          <!-- Social Icons -->
+          <div class="flex gap-3">
+            <a href="#" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-colors">
+              <i class="fab fa-facebook-f text-sm"></i>
+            </a>
+            <a href="#" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-colors">
+              <i class="fab fa-twitter text-sm"></i>
+            </a>
+            <a href="#" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-colors">
+              <i class="fab fa-instagram text-sm"></i>
+            </a>
+            <a href="#" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-colors">
+              <i class="fab fa-linkedin-in text-sm"></i>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Our Services -->
+        <div>
+          <h4 class="font-semibold text-lg mb-6">Our Services</h4>
+          <ul class="space-y-3 text-sm sm:text-base opacity-80 text-footer">
+            <li><a href="#" class="hover:opacity-100 transition-opacity">Interior design</a></li>
+            <li><a href="#" class="hover:opacity-100 transition-opacity">Outdoor design</a></li>
+            <li><a href="#" class="hover:opacity-100 transition-opacity">Lightning design</a></li>
+            <li><a href="#" class="hover:opacity-100 transition-opacity">Office design</a></li>
+          </ul>
+        </div>
+        
+        <!-- Quick Links -->
+        <div>
+          <h4 class="font-semibold text-lg mb-6">Our Services</h4>
+          <ul class="space-y-3 text-sm sm:text-base opacity-80 text-footer">
+            <li><a href="#" class="hover:opacity-100 transition-opacity">Reviews</a></li>
+            <li><a href="#" class="hover:opacity-100 transition-opacity">Careers</a></li>
+            <li><a href="#" class="hover:opacity-100 transition-opacity">Pricing</a></li>
+            <li><a href="#" class="hover:opacity-100 transition-opacity">Press Inquiries</a></li>
+          </ul>
+        </div>
+        
+        <!-- Contact Info -->
+        <div>
+          <h4 class="font-semibold text-lg mb-6">Our Services</h4>
+          <ul class="space-y-3 text-sm sm:text-base opacity-80 text-footer">
+            <li>
+              <a href="mailto:wmostafa452@gmail.com" class="hover:opacity-100 transition-opacity">
+                info@vivadecor.com
+              </a>
+            </li>
+            <li class="leading-[165%]">
+              Design Avenue Cityville,<br>
+              CA 90210 United States
+            </li>
+          </ul>
+        </div>
+        
+      </div>
+      
+    </div>
+  </footer>
+</section>
+<!-- End Newsletter & Footer -->
+
+</body>
+</html>
